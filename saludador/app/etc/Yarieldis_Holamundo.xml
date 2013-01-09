@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Magento
+ *
+ * DISCLAIMER
+ *
+ *
+ * @category    Yarieldis
+ * @package     Yarieldis_Holamundo
+ * @copyright   Copyright (c) 2012 YariWeb
+ */
+-->
+<config>
+    <modules>
+        <Yarieldis_Holamundo>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Yarieldis_Holamundo>
+    </modules>
+</config>

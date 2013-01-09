@@ -1,0 +1,18 @@
+<h1> Bienvenido al Saludador </h1>
+
+<?php 
+if (isset($_GET['nombre'])) {
+    $saludo = $this->construirSaludo("alex");
+    echo("<h4>" . $saludo . "</h4>");
+} else {
+?>
+ 
+<form action="saludar" method="GET">
+<label for="nombre">Dime tu nombre</label>
+<input type="text" name="nombre"/>
+<input type="submit" value="Saludar"/>
+</form>
+ 
+<?php
+}
+?>
